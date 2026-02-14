@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <h2>Student Registration Form</h2>
+
+        <form>
+
+            <label>Username:</label>
+            <input type="text" id="username">
+            <p id="userMsg" class="msg"></p>
+
+            <label>Email:</label>
+            <input type="text" id="email">
+            <p id="emailMsg" class="msg"></p>
+
+            <label>Phone Number:</label>
+            <input type="text" id="phone" maxlength="10"
+                   onkeypress="return event.charCode>=48 && event.charCode<=57">
+            <p id="phoneMsg" class="msg"></p>
+
+            <label>Password:</label>
+            <input type="password" id="password">
+            <p id="passMsg" class="msg"></p>
+
+            <label>Confirm Password:</label>
+            <input type="password" id="confirmPassword">
+            <p id="confirmMsg" class="msg"></p>
+
+            <button type="button" onclick="validateForm()">Register</button>
+
+            <h3 id="finalMsg"></h3>
+
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+
+</body>
+</html>
