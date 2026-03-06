@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinshuk Kshirsagar - Resume</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="hero">
+
+<h1>Kinshuk Kshirsagar</h1>
+<p class="tagline">Computer Enthusiast</p>
+
+</header>
+
+
+<section class="section">
+
+<h2>About Me</h2>
+
+<p>
+Hello, I'm Kinshuk Kshirsagar, a passionate computer learner who explores and learns about
+Full-Stack Development, Database Management, Data Structures and Algorithms,
+Software Engineering and Modelling, Data Engineering, and UI & Software Design.
+</p>
+
+</section>
+
+
+<section class="section">
+
+<h2>Skills</h2>
+
+<p><b>Programming Foundations:</b> C, C++, Java</p>
+<p><b>Full Stack Development:</b> HTML, CSS, JavaScript, Bootstrap</p>
+<p><b>Database Management:</b> MySQL, PLSQL, SQL integration with programming</p>
+<p><b>Data Structures and Algorithms:</b> Problem Solving</p>
+<p><b>Software Engineering and Modelling:</b> System Design Basics</p>
+<p><b>Data Engineering:</b> Data Processing Concepts</p>
+<p><b>UI and Software Design:</b> Interface Layout</p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
